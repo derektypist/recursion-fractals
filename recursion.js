@@ -5,7 +5,7 @@ function setup(){
   
 }
 
-// Draw Rectangle
+// Draw Rectangles
 function draw(){
   draw_fractal(0,0,width,height,3)
 }
