@@ -5,10 +5,12 @@ function setup(){
   
 }
 
+// Draw Rectangle
 function draw(){
   draw_fractal(0,0,width,height,3)
 }
 
+// Draw Fractal
 function draw_fractal(x,y,w,h,depth) {
   var color_fill = random(0,1)
   if (color_fill > 0.7) {
